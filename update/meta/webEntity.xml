@@ -5,10 +5,10 @@
 	<urlUpdateBase>https://rcpsync.github.io/update</urlUpdateBase>
 
 	<urlRepository>repository</urlRepository>
-	<versionApp>7.6.6</versionApp>
+	<versionApp>7.7.10</versionApp>
 
 	<urlDbsBase>dbs</urlDbsBase>
-	<versionDbs>7.5.7</versionDbs>
+	<versionDbs>7.7.11</versionDbs>
 
 	<urlVPN>ext/vpn.zip</urlVPN>
 	<versionVPN>2.4.0</versionVPN>
