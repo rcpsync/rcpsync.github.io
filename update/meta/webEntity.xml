@@ -7,7 +7,7 @@
 	<urlRepository>https://rcpsync.github.io/update/repository</urlRepository>
 	<versionApp>7.7.60</versionApp>
 
-	<urlDbsBase>dbs</urlDbsBase>
+	<urlDbsBase>https://rcpsync.github.io/amres/dbs</urlDbsBase>
 	<versionDbs>7.7.39</versionDbs>
 
 	<urlVPN>ext/vpn.zip</urlVPN>
