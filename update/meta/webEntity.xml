@@ -8,7 +8,7 @@
 	<versionApp>7.7.60</versionApp>
 
 	<urlDbsBase>https://rcpsync.github.io/amres/dbs</urlDbsBase>
-	<versionDbs>7.7.39</versionDbs>
+	<versionDbs>7.7.61</versionDbs>
 
 	<urlVPN>ext/vpn.zip</urlVPN>
 	<versionVPN>2.4.0</versionVPN>
