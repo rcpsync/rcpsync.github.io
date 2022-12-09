@@ -19,7 +19,7 @@
 	<urlOpenCV>ext/opencv.zip</urlOpenCV>
 	<versionOpenCV>4.5.4</versionOpenCV>
 
-	<urlVersionHistory>https://rcpsync.github.io/update/meta/versionHistory.html</urlVersionHistory>
+	<urlVersionHistory>https://rcpsync.github.io/meta/versionHistory.html</urlVersionHistory>
 	<urlSubTitleBase>https://amrcp.xyz/amrcp/subtitle/</urlSubTitleBase>
 
 	<urlWebBase>https://amrcp.xyz/</urlWebBase>
