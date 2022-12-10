@@ -30,36 +30,36 @@
 
 	<urlWebResBase>https://amarchive.github.io</urlWebResBase>
 
-	<ExtModules>
-		<Module>
-			<Name>model</Name>
-			<FileName>deploy.prototxt</FileName>
-			<FileDesc>Face-Proto</FileDesc>
-			<Version>1.0.0</Version>
-		</Module>
-		<Module>
-			<Name>model</Name>
-			<FileName>res10_300x300_ssd_iter_140000.caffemodel</FileName>
-			<FileDesc>Face-Model</FileDesc>
-			<Version>1.0.0</Version>
-		</Module>
-		<Module>
-			<Name>model</Name>
-			<FileName>deploy_gender.prototxt</FileName>
-			<FileDesc>Gender-Proto</FileDesc>
-			<Version>1.0.0</Version>
-		</Module>
-		<Module>
-			<Name>model</Name>
-			<FileName>gender_net.caffemodel</FileName>
-			<FileDesc>Gender-Model</FileDesc>
-			<Version>1.0.0</Version>
-		</Module>
-		<Module>
-			<Name>vlc</Name>
-			<FileName>vlc.zip</FileName>
-			<FileDesc>Vlc</FileDesc>
-			<Version>1.0.0</Version>
-		</Module>		
-	</ExtModules>
+
+	<extModule>
+		<name>model</name>
+		<fileName>deploy.prototxt</fileName>
+		<fileDesc>Face-Proto</fileDesc>
+		<version>1.0.0</version>
+	</extModule>
+	<extModule>
+		<name>model</name>
+		<fileName>res10_300x300_ssd_iter_140000.caffemodel</fileName>
+		<fileDesc>Face-Model</fileDesc>
+		<version>1.0.0</version>
+	</extModule>
+	<extModule>
+		<name>model</name>
+		<fileName>deploy_gender.prototxt</fileName>
+		<fileDesc>Gender-Proto</fileDesc>
+		<version>1.0.0</version>
+	</extModule>
+	<extModule>
+		<name>model</name>
+		<fileName>gender_net.caffemodel</fileName>
+		<fileDesc>Gender-Model</fileDesc>
+		<version>1.0.0</version>
+	</extModule>
+	<extModule>
+		<name>vlc</name>
+		<fileName>vlc.zip</fileName>
+		<fileDesc>Vlc</fileDesc>
+		<version>1.0.0</version>
+	</extModule>
+
 </WebEntity>
