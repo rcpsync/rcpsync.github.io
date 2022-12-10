@@ -4,7 +4,8 @@
 	<reqMinAppVersion>3.2.0</reqMinAppVersion>
 
 	<urlUpdateBase>https://rcpsync.github.io/update</urlUpdateBase>
-
+	<urlExtBase>https://rcpsync.github.io/amres/ext</urlExtBase>
+	
 	<urlRepository>https://rcpsync.github.io/amrepo/repository</urlRepository>
 	<versionApp>7.7.62</versionApp>
 
