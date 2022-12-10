@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><WebEntity>	
+<?xml version="1.0" encoding="UTF-8"?>
+<WebEntity>
 	<unLockCode>AMRCP-0007</unLockCode>
 	<reqMinAppVersion>3.2.0</reqMinAppVersion>
 
 	<urlUpdateBase>https://rcpsync.github.io/update</urlUpdateBase>
 
-	<urlRepository>https://rcpsync.github.io/amrepo/repository</urlRepository>
+	<urlRepository>https://rcpsync.github.io/amrepo/repository
+	</urlRepository>
 	<versionApp>7.7.62</versionApp>
 
 	<urlDbsBase>https://rcpsync.github.io/amres/dbs</urlDbsBase>
@@ -12,19 +14,52 @@
 
 	<urlVPN>ext/vpn.zip</urlVPN>
 	<versionVPN>2.4.0</versionVPN>
-	
+
 	<urlFFMpeg>ext/ffmpeg.zip</urlFFMpeg>
 	<versionFFMpeg>4.4.0</versionFFMpeg>
 
 	<urlOpenCV>ext/opencv.zip</urlOpenCV>
 	<versionOpenCV>4.5.4</versionOpenCV>
 
-	<urlVersionHistory>https://rcpsync.github.io/meta/versionHistory.html</urlVersionHistory>
+	<urlVersionHistory>https://rcpsync.github.io/meta/versionHistory.html
+	</urlVersionHistory>
 	<urlSubTitleBase>https://amrcp.xyz/amrcp/subtitle/</urlSubTitleBase>
 
 	<urlWebBase>https://amrcp.xyz/</urlWebBase>
 	<urlRpcService>https://amrcp.xyz/web/rpcService.php</urlRpcService>
-	
+
 	<urlWebResBase>https://amarchive.github.io</urlWebResBase>
-	
+
+	<ExtModules>
+		<Module>
+			<Name>model</Name>
+			<FileName>deploy.prototxt</FileName>
+			<FileDesc>Face-Proto</FileDesc>
+			<Version>1.0.0</Version>
+		</Module>
+		<Module>
+			<Name>model</Name>
+			<FileName>res10_300x300_ssd_iter_140000.caffemodel</FileName>
+			<FileDesc>Face-Model</FileDesc>
+			<Version>1.0.0</Version>
+		</Module>
+		<Module>
+			<Name>model</Name>
+			<FileName>deploy_gender.prototxt</FileName>
+			<FileDesc>Gender-Proto</FileDesc>
+			<Version>1.0.0</Version>
+		</Module>
+		<Module>
+			<Name>model</Name>
+			<FileName>gender_net.caffemodel</FileName>
+			<FileDesc>Gender-Model</FileDesc>
+			<Version>1.0.0</Version>
+		</Module>
+		<Module>
+			<Name>vlc</Name>
+			<FileName>vlc.zip</FileName>
+			<FileDesc>Vlc</FileDesc>
+			<Version>1.0.0</Version>
+		</Module>		
+	</ExtModules>
 </WebEntity>
