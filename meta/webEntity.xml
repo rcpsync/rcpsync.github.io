@@ -5,21 +5,11 @@
 
 	<urlUpdateBase>https://rcpsync.github.io/update</urlUpdateBase>
 
-	<urlRepository>https://rcpsync.github.io/amrepo/repository
-	</urlRepository>
+	<urlRepository>https://rcpsync.github.io/amrepo/repository</urlRepository>
 	<versionApp>7.7.62</versionApp>
 
 	<urlDbsBase>https://rcpsync.github.io/amres/dbs</urlDbsBase>
 	<versionDbs>7.7.61</versionDbs>
-
-	<urlVPN>ext/vpn.zip</urlVPN>
-	<versionVPN>2.4.0</versionVPN>
-
-	<urlFFMpeg>ext/ffmpeg.zip</urlFFMpeg>
-	<versionFFMpeg>4.4.0</versionFFMpeg>
-
-	<urlOpenCV>ext/opencv.zip</urlOpenCV>
-	<versionOpenCV>4.5.4</versionOpenCV>
 
 	<urlVersionHistory>https://rcpsync.github.io/meta/versionHistory.html
 	</urlVersionHistory>
@@ -30,36 +20,40 @@
 
 	<urlWebResBase>https://amarchive.github.io</urlWebResBase>
 
-
 	<extModule>
-		<name>model</name>
+		<moduleName>model</moduleName>
 		<fileName>deploy.prototxt</fileName>
 		<fileDesc>Face-Proto</fileDesc>
-		<version>1.0.0</version>
+		<version>2022.1211.01</version>
 	</extModule>
 	<extModule>
-		<name>model</name>
+		<moduleName>model</moduleName>
 		<fileName>res10_300x300_ssd_iter_140000.caffemodel</fileName>
 		<fileDesc>Face-Model</fileDesc>
-		<version>1.0.0</version>
+		<version>2022.1211.01</version>
 	</extModule>
 	<extModule>
-		<name>model</name>
+		<moduleName>model</moduleName>
 		<fileName>deploy_gender.prototxt</fileName>
 		<fileDesc>Gender-Proto</fileDesc>
-		<version>1.0.0</version>
+		<version>2022.1211.01</version>
 	</extModule>
 	<extModule>
-		<name>model</name>
+		<moduleName>model</moduleName>
 		<fileName>gender_net.caffemodel</fileName>
 		<fileDesc>Gender-Model</fileDesc>
-		<version>1.0.0</version>
+		<version>2022.1211.01</version>
 	</extModule>
 	<extModule>
-		<name>vlc</name>
+		<moduleName>vlc</moduleName>
 		<fileName>vlc.zip</fileName>
 		<fileDesc>Vlc</fileDesc>
-		<version>1.0.0</version>
+		<version>2022.1211.01</version>
 	</extModule>
-
+	<extModule>
+		<moduleName>vpn</moduleName>
+		<fileName>vpn.zip</fileName>
+		<fileDesc>VPN</fileDesc>
+		<version>2022.1211.01</version>
+	</extModule>
 </WebEntity>
