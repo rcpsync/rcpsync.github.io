@@ -5,15 +5,14 @@
 
 	<urlUpdateBase>https://rcpsync.github.io/update</urlUpdateBase>
 	<urlExtBase>https://rcpsync.github.io/amres/ext</urlExtBase>
-	
+
 	<urlRepository>https://rcpsync.github.io/amrepo/repository</urlRepository>
 	<versionApp>7.7.62</versionApp>
 
 	<urlDbsBase>https://rcpsync.github.io/amres/dbs</urlDbsBase>
 	<versionDbs>7.7.61</versionDbs>
 
-	<urlVersionHistory>https://rcpsync.github.io/meta/versionHistory.html
-	</urlVersionHistory>
+	<urlVersionHistory>https://rcpsync.github.io/meta/versionHistory.html</urlVersionHistory>
 	<urlSubTitleBase>https://amrcp.xyz/amrcp/subtitle/</urlSubTitleBase>
 
 	<urlWebBase>https://amrcp.xyz/</urlWebBase>
