@@ -4,10 +4,9 @@
 	<reqMinAppVersion>3.2.0</reqMinAppVersion>
 
 	<urlUpdateBase>https://rcpsync.github.io/update</urlUpdateBase>
-	<urlExtBase>https://rcpsync.github.io/amres/ext</urlExtBase>
 
 	<urlRepository>https://rcpsync.github.io/amrepo/repository</urlRepository>
-	<versionApp>7.7.62</versionApp>
+	<versionApp>7.7.65</versionApp>
 
 	<urlDbsBase>https://rcpsync.github.io/amres/dbs</urlDbsBase>
 	<versionDbs>7.7.61</versionDbs>
@@ -17,43 +16,44 @@
 
 	<urlWebBase>https://amrcp.xyz/</urlWebBase>
 	<urlRpcService>https://amrcp.xyz/web/rpcService.php</urlRpcService>
-
+	
 	<urlWebResBase>https://amarchive.github.io</urlWebResBase>
-
 	<extModule>
-		<moduleName>model</moduleName>
-		<fileName>deploy.prototxt</fileName>
-		<fileDesc>Face-Proto</fileDesc>
-		<version>2022.1211.01</version>
-	</extModule>
-	<extModule>
-		<moduleName>model</moduleName>
-		<fileName>res10_300x300_ssd_iter_140000.caffemodel</fileName>
-		<fileDesc>Face-Model</fileDesc>
-		<version>2022.1211.01</version>
-	</extModule>
-	<extModule>
-		<moduleName>model</moduleName>
-		<fileName>deploy_gender.prototxt</fileName>
-		<fileDesc>Gender-Proto</fileDesc>
-		<version>2022.1211.01</version>
-	</extModule>
-	<extModule>
-		<moduleName>model</moduleName>
-		<fileName>gender_net.caffemodel</fileName>
-		<fileDesc>Gender-Model</fileDesc>
-		<version>2022.1211.01</version>
-	</extModule>
-	<extModule>
-		<moduleName>vlc</moduleName>
-		<fileName>vlc.zip</fileName>
-		<fileDesc>Vlc</fileDesc>
-		<version>2022.1211.01</version>
-	</extModule>
-	<extModule>
-		<moduleName>vpn</moduleName>
-		<fileName>vpn.zip</fileName>
-		<fileDesc>VPN</fileDesc>
-		<version>2022.1211.01</version>
+		<extModule>
+			<moduleName>model</moduleName>
+			<fileName>deploy.prototxt</fileName>
+			<fileDesc>Face-Proto</fileDesc>
+			<version>2022.1211.01</version>
+		</extModule>
+		<extModule>
+			<moduleName>model</moduleName>
+			<fileName>res10_300x300_ssd_iter_140000.caffemodel</fileName>
+			<fileDesc>Face-Model</fileDesc>
+			<version>2022.1211.01</version>
+		</extModule>
+		<extModule>
+			<moduleName>model</moduleName>
+			<fileName>deploy_gender.prototxt</fileName>
+			<fileDesc>Gender-Proto</fileDesc>
+			<version>2022.1211.01</version>
+		</extModule>
+		<extModule>
+			<moduleName>model</moduleName>
+			<fileName>gender_net.caffemodel</fileName>
+			<fileDesc>Gender-Model</fileDesc>
+			<version>2022.1211.01</version>
+		</extModule>
+		<extModule>
+			<moduleName>vlc</moduleName>
+			<fileName>vlc.zip</fileName>
+			<fileDesc>Vlc</fileDesc>
+			<version>2022.1211.01</version>
+		</extModule>
+		<extModule>
+			<moduleName>vpn</moduleName>
+			<fileName>vpn.zip</fileName>
+			<fileDesc>VPN</fileDesc>
+			<version>2022.1211.01</version>
+		</extModule>
 	</extModule>
 </WebEntity>
