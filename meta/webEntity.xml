@@ -6,7 +6,7 @@
 	<urlUpdateBase>https://rcpsync.github.io/update</urlUpdateBase>
 
 	<urlRepository>https://rcpsync.github.io/amrepo/repository</urlRepository>
-	<versionApp>7.7.76</versionApp>
+	<versionApp>7.7.77</versionApp>
 
 	<urlDbsBase>https://rcpsync.github.io/amres/dbs</urlDbsBase>
 	<versionDbs>7.7.61</versionDbs>
